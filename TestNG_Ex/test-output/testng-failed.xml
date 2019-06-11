@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="test1(failed)">
+    <groups>
+      <run>
+        <include name="qap1"/>
+        <include name="qap2"/>
+        <include name="qap3"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="DataDrivenFrame.Tc_5">
+        <methods>
+          <include name="Tc5"/>
+        </methods>
+      </class> <!-- DataDrivenFrame.Tc_5 -->
+      <class name="DataDrivenFrame.Tc_1">
+        <methods>
+          <include name="ex1"/>
+        </methods>
+      </class> <!-- DataDrivenFrame.Tc_1 -->
+      <class name="DataDrivenFrame.Tc_6">
+        <methods>
+          <include name="Tc6"/>
+        </methods>
+      </class> <!-- DataDrivenFrame.Tc_6 -->
+      <class name="DataDrivenFrame.Tc_4">
+        <methods>
+          <include name="Tc4"/>
+        </methods>
+      </class> <!-- DataDrivenFrame.Tc_4 -->
+      <class name="DataDrivenFrame.Tc_2">
+        <methods>
+          <include name="ex2"/>
+        </methods>
+      </class> <!-- DataDrivenFrame.Tc_2 -->
+      <class name="DataDrivenFrame.Tc_3">
+        <methods>
+          <include name="ex3"/>
+        </methods>
+      </class> <!-- DataDrivenFrame.Tc_3 -->
+      <class name="DataDrivenFrame.Tc_7">
+        <methods>
+          <include name="Tc7"/>
+        </methods>
+      </class> <!-- DataDrivenFrame.Tc_7 -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

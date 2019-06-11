@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="ModularFrameWork.Tc_1"/>
+      <class name="ModularFrameWork.Tc_3"/>
+      <class name="ModularFrameWork.Tc_2"/>
+      <class name="ModularFrameWork.Tc_11"/>
+      <class name="ModularFrameWork.Tc_14"/>
+      <class name="ModularFrameWork.Tc_13"/>
+      <class name="ModularFrameWork.Tc_5"/>
+      <class name="ModularFrameWork.Ts_12"/>
+      <class name="ModularFrameWork.Tc_4"/>
+      <class name="ModularFrameWork.Tc_7"/>
+      <class name="ModularFrameWork.Tc_6"/>
+      <class name="ModularFrameWork.Tc_9"/>
+      <class name="ModularFrameWork.Tc_8"/>
+      <class name="ModularFrameWork.Tc_10"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
